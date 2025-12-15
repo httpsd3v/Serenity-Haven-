@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Serenity Haven</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="OfficialLogo.PNG" type="image/x-icon">
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <div class="container header-container">
+            <a href="#" class="logo">
+              	<img src="pics/SerenityHavenLogo.ico" alt="Img Not Found" style="height: 50px;"/>
+                <div class="logo-text">Serenity <span>Haven</span></div>
+            </a>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HERO SECTION -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Your Mental Wellness Journey Starts Here</h1>
+                <p>At Serenity Haven, we believe everyone deserves kind, caring support for their mental health. We're here to walk with you through tough times and celebrate your progress.</p>
+                <div class="hero-buttons">
+                    <a href="#services" class="btn">Our Services</a>
+                    <a href="#contact" class="btn btn-accent">Get Help Now</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://media.istockphoto.com/id/2070585218/photo/happy-smiling-face-mental-health-concept-positive-thinking-and-attitude-emotion-support-and.jpg?s=612x612&w=0&k=20&c=3bdrVxMevqYk6yK7qFLZiWqNN9eGUwK0mcnv62eKgxw=" alt="Person meditating in nature">
+            </div>
+        </div>
+    </section>
+
+    <!-- CRISIS BANNER -->
+    <div class="crisis-banner">
+        <div class="container">
+            <h2>Need Help Right Now?</h2>
+            <p>If you're feeling overwhelmed or in crisis, our support line is open 24/7. You're not alone.</p>
+            <div class="hotline">
+                <i class="fas fa-phone-alt"></i>
+                <span>Call Now: +254784953127</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- SERVICES SECTION -->
+    <section id="services">
+        <div class="container">
+            <div class="text-center">
+                <h2>Our Support Services</h2>
+                <p>We offer different ways to help you feel better, all with kindness and care.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-comments service-icon"></i>
+                    <h3>Talking Support</h3>
+                    <p>One-on-one or group sessions with trained counselors who listen without judgment.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-users service-icon"></i>
+                    <h3>Support Groups</h3>
+                    <p>Connect with others who understand what you're going through in a safe space.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-book-open service-icon"></i>
+                    <h3>Learning Workshops</h3>
+                    <p>Learn simple tools to handle stress, feel calmer, and build your emotional strength.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-laptop service-icon"></i>
+                    <h3>Online Help</h3>
+                    <p>Free guides, calming exercises, and helpful information available anytime.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-child service-icon"></i>
+                    <h3>Support for Young People</h3>
+                    <p>Special help for teens and young adults dealing with school, friendships, or big feelings.</p>
+                </div>
+                <div class="service-card">
+                    <i class="fa fa-wine-bottle green-icon" id="whine"></i>
+                    <h3>Alcohol & Drug Abuse Counseling</h3>
+                    <p>we provide Rehabilitation Services On drug and substance abuse affected individuals </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <div class="container">
+            <div class="text-center">
+                <h2>About Serenity Haven</h2>
+            </div>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>We started Serenity Haven in 2025 because we saw that many people couldn't get the mental health help they needed. We're a team of kind counselors, caring volunteers, and mental health experts.</p>
+                    <p>Our work is based on simple ideas: everyone deserves kindness, no one should feel ashamed for asking for help, and mental wellness is possible for everyone.</p>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="https://media.istockphoto.com/id/857146092/photo/sea-of-hands.jpg?s=612x612&w=0&k=20&c=mpZdzYstDIE_OGQ9PivyYdtA5Vq8wwbZF_uazfbfuwo=" alt="Diverse team of mental health professionals">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA SECTION -->
+    <section class="cta">
+        <div class="container">
+            <h2>Take Your First Step Towards Better Mental Wellness</h2>
+            <p>Reaching out for help is a sign of strength. Our caring team is ready to listen and support you on your journey to wellness.</p>
+        </div>
+        <form class="contact-form" action="https://formsubmit.co/serenityhavencwc@gmail.com" method="POST">
+            <input type="hidden" name="_template" value="table">
+            <input type="hidden" name="_next" value="https://x316page.netlify.app/">
+            <input type="text" name="name" class="Name" placeholder="Enter Your Full Official Name" required />
+            <input type="email" name="email" class="Email" placeholder="Your Email" required />
+            <textarea name="message" class="Message" placeholder="How can we help you?" required></textarea>
+            <button type="submit" class="btn">Submit</button>
+        </form>
+    </section>
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Serenity Haven</h3>
+                    <p>Providing kind, accessible mental health support to everyone since 2025.</p>
+                    <div class="social-links">
+                        <a href="https://web.facebook.com/profile.php?id=61584794473469" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                        <a href="https://x.com/SerenityHCWC" target="_blank" rel="noopener noreferrer"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-twitter-x" viewBox="0 0 16 16"><path d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865z"/></svg></a>
+			            <a href="https://www.instagram.com/serenityhcwc/" target="_blank" rel="noopener noreferrer"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/serenity-haven-counseling-and-wellness-centre-21965a3a0/" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul class="footer-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#services">Our Services</a></li>
+                        <li><a href="#about">About Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Us</h3>
+                    <ul class="contact-info">
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>
+                            <span>PO Box 3501-90100-40200, Machakos, Kenya.</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>
+                            <span>+254784953127</span>
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>
+                            <span> serenityhavencwc@gmail.com </span>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2025 Serenity Haven. All rights reserved. | Privacy Policy | Terms of Use</p>
+                <p>Serenity Haven nonprofit organization.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
